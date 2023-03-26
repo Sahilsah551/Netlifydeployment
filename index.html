@@ -1,24 +1,75 @@
 <!DOCTYPE html>
-<head>
-    <body>
-        <form>
-            <label for="First"> FirstName</label> <br>
-            <input type="text" id="First"> <br>
-            <label for="Middle"> Middle Name</label> <br>
-            <input type="text" id="Middle"> <br>
-            <label for="Last"> Last Name</label> <br>
-            <input type="text" id="Last"><br>
-            <label for="email"> Email</label> <br>
-            <input type="emaik" id="email"><br>
-            <label for="pass"> Password</label> <br>
-            <input type="password" id="pass"><br>
-            <label for="Gender"> Male</label> 
-            <input type="radio" name="Gender"i d="Gender"
-            <label for="Gender"> Female </label> 
-            <input type="radio" name="Gender"id="Gender"><br>
-            <label for="file"> Upload a File</label> 
-            <input type="file" id="file"><br>
-            <input type="submit">
-        </form>
-    </body>
-</head>
+<body>
+    <head>
+        <title> Html Form</title>
+        <style>
+         table,th,td{
+        border:1px solid black;
+        border-collapse: collapse;
+        text-align: center;
+    }
+        </style>
+    </head>
+    <!-- <form>
+        <label for="First"> FirstName</label> <br>
+        <input type="text" id="First"> <br>
+        <label for="Middle"> Middle Name</label> <br>
+        <input type="text" id="Middle"> <br>
+        <label for="Last"> Last Name</label> <br>
+        <input type="text" id="Last"><br>
+        <label for="email"> Email</label> <br>
+        <input type="emaik" id="email"><br>
+        <label for="pass"> Password</label> <br>
+        <input type="password" id="pass"><br>
+        <label for="Gender"> Male</label> 
+        <input type="radio" name="Gender"i d="Gender"
+        <label for="Gender"> Female </label> 
+        <input type="radio" name="Gender"id="Gender"><br> 
+        <label for="file"> Upload a File</label> 
+        <input type="file" id="file"><br>
+        <input type="submit"><br>
+    </form> -->
+
+    <table>
+        <thead>
+        <tr>
+            <th>State of Health</th>
+            <th colspan="2">Fasting Value</th>
+            <th>After Remaining</th>
+        </tr>
+        </thead>
+        <thead>
+            <tr>
+                <th></th>
+                <th>Minimum</th>
+                <th>Normal Value</th>
+                <th>2 Hours of Eating</th>
+            </tr>
+            </thead>
+        <tbody>
+            <tr>
+                <td>Healthy</td>
+                <td>70</td>
+                <td>100</td>
+                <td>Less than 70</td>
+            </tr>
+        </tbody>
+        <tbody>
+            
+            <tr>
+                <td>Pre Diabeties</td>
+                <td>101</td>
+                <td>126</td>
+                <td>140 to 160</td>
+            </tr>
+        </tbody></td>
+                <td>Diabeties</td>
+                <td>70</td>
+                <td>100</td>
+                <td>More than 200</td>
+            </tr>
+        </tbody>
+        
+       
+    </table>
+</body>
